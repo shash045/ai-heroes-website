@@ -19,15 +19,15 @@ const Origins = () => {
           transition={{ duration: 0.8 }}
         >
           <div className="flex items-center gap-2 mb-6">
-            <Fingerprint className="text-purple-500 w-6 h-6" />
-            <span className="text-purple-400 font-mono tracking-widest uppercase text-sm">
+            <Fingerprint className="text-blue-500 w-6 h-6" />
+            <span className="text-cyan-400 font-mono tracking-widest uppercase text-sm">
               Origin
             </span>
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
             Forged in the heart of <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
               Greater Noida
             </span>
           </h2>
@@ -40,7 +40,7 @@ const Origins = () => {
             Today, we are a collective of developers, designers, and entrepreneur united by a single code: <strong>To build systems that matter.</strong> We don't just write code; we architect the future.
           </p>
 
-          <button className="text-white border-b border-purple-500 pb-1 hover:text-purple-400 transition-colors">
+          <button className="text-white border-b border-cyan-600 pb-1 hover:text-cyan-400 transition-colors">
             Read Full Manifesto &rarr;
           </button>
         </motion.div>
@@ -58,7 +58,7 @@ const Origins = () => {
               whileHover={{ scale: 1.05 }}
               className="p-6 bg-slate-900/50 border border-white/10 rounded-2xl flex flex-col justify-center items-center text-center group hover:border-purple-500/50 transition-all duration-300"
             >
-              <h3 className="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:text-purple-400 transition-colors">
+              <h3 className="text-4xl md:text-5xl font-bold text-white mb-2 group-hover:text-cyan-400 transition-colors">
                 {stat.value}
               </h3>
               <p className="text-sm text-gray-500 uppercase tracking-wider font-semibold">

@@ -12,7 +12,7 @@ const Squads = () => {
              whileInView={{ opacity: 1 }}
              className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-tight"
           >
-            CHOOSE YOUR <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">ALLIANCE</span>
+            CHOOSE YOUR <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-600">ALLIANCE</span>
           </motion.h2>
           <p className="text-gray-400">Find where your skills belong in our ecosystem.</p>
         </div>

@@ -25,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tighter text-white mb-6"
         >
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-500 animate-gradient-x">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-cyan-600 animate-gradient-x">
             {HERO_CONTENT.headline}
           </span>
         </motion.h1>
